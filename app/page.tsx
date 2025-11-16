@@ -8,7 +8,7 @@ import {
   useDisplayMode,
   useRequestDisplayMode,
   useIsChatGptApp,
-} from "./hooks";
+} from "../hooks";
 
 export default function Home() {
   const toolOutput = useWidgetProps<{

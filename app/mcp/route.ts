@@ -1,8 +1,8 @@
 import { baseURL } from "@/baseUrl";
 import { createMcpHandler } from "mcp-handler";
 import { z } from "zod";
-import { getCoords } from "../utils/get-coords";
-import { getForcast } from "../utils/get-forcast";
+import { getCoords } from "@/utils/get-coords";
+import { getForcast } from "@/utils/get-forcast";
 
 const getAppsSdkCompatibleHtml = async (baseUrl: string, path: string) => {
   const result = await fetch(`${baseUrl}${path}`);

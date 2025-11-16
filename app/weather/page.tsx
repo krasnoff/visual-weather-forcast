@@ -1,9 +1,9 @@
 "use client";
 
 import Link from "next/link";
-import { useDisplayMode, useIsChatGptApp, useMaxHeight, useRequestDisplayMode, useWidgetProps } from "../hooks";
+import { useDisplayMode, useIsChatGptApp, useMaxHeight, useRequestDisplayMode, useWidgetProps } from "../../hooks";
 import { useEffect } from "react";
-import { Forcast } from "../components/forcast";
+import { Forcast } from "../../components/forcast";
 
 export default function HomePage() {
   const toolOutput = useWidgetProps<{
