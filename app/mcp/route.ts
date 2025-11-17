@@ -26,7 +26,7 @@ function widgetMeta(widget: ContentWidget) {
     "openai/toolInvocation/invoking": widget.invoking,
     "openai/toolInvocation/invoked": widget.invoked,
     "openai/widgetAccessible": false,
-    "openai/resultCanProduceWidget": true,
+    "openai/resultCanProduceWidget": true, 
   } as const;
 }
 
